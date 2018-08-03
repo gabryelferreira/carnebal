@@ -1,0 +1,337 @@
+@media(max-width:1150px){
+    .container {
+        width: 900px;
+    }
+    
+    .corpoPerfil {
+        width: 90%;
+    }
+
+    .cadastroDiv {
+        width: 90%;
+        margin: 0 5% 36px 5%;
+    }
+
+    
+    .this-is-consulta {
+        width: 100%;
+        border: 0;
+    }
+    
+    .this-is-principal {
+        padding: 0;
+    }
+    
+    .opcoesPrincipal {
+        width: 100%;
+        margin: 0;
+        display: block;
+        border: 0;
+    }
+    
+    .opcoesPrincipal a {
+        margin: 0;
+        border: 0;
+        margin: auto;
+        
+    }
+    
+    .opcaoCadastro {
+        height: auto;
+    }
+    
+
+    
+    .opcaoCadastro p {
+        text-align: center;
+        padding-bottom: 70px;
+        
+    }
+    .par {
+        background-color: rgb(246, 246, 246);
+    }
+    
+    .opcaoCadastro:hover {
+        background-color: rgb(230, 230, 230);
+    }
+    
+    .opcaoCadastro img {
+        margin-top: 60px;
+    }
+    
+    .borderRight {
+        border: 0;
+    }
+
+    .consultaCampos {
+        width: 31.3%;
+        margin: 15px 1%;
+    }
+    
+    
+}
+
+@media(max-width: 930px){
+    .estatisticas-first {
+        width: 100%;
+        border: 0;
+    }
+    
+    .container {
+        width: 750px;
+    }
+
+    .comanda-aberta {
+        width: 46%;
+        margin: 10px 2%;
+    }
+
+
+
+    
+}
+
+
+
+@media(max-width: 835px){
+    .erroDadosIncorretos {
+        left: 0;
+        width: 100%;
+        padding: 5px 0;
+        transform: translateY(20%);
+        position: relative;
+    }
+    
+    .erroDadosIncorretos h1 {
+        padding: 0 10px;
+    }
+    
+    .erroDadosIncorretos::after {
+        border: 10px solid transparent;
+        border-bottom: 10px solid lightcoral;
+        left: 10%;
+        top: 0;
+        transform: translateY(-90%);
+    }
+
+
+    
+}
+
+
+@media(max-width: 770px){
+    .container {
+        width: 95%;
+    }
+
+    .allPerfil {
+        display: block;
+        border: 0;
+    }
+
+    .imgPerfil {
+        border: 0;
+    }
+
+    .imgPerfil img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .inputWithImgPerfil a {
+        border: 0;
+    }
+
+    .opcoesPerfil {
+        width: 100%;
+        border: 0;
+        margin-bottom: 30px;
+    }
+
+    .definirPerfil {
+        width: 100%;
+        border: 1px solid lightgray;
+    }
+
+    .headerPerfil h1 {
+        font-size: 16px;
+    }
+
+    .headerPerfil p {
+        font-size: 13px;
+    }
+
+
+    .consultaCampos {
+        width: 48%;
+        margin: 15px 1%;
+    }
+
+
+
+
+}
+
+
+
+
+@media(max-width: 650px){
+    header nav {
+        display: none;
+    }
+    
+    .menuResponsiveIcon {
+        display: block;
+    }
+    
+    .title {
+        float: none;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .title h1 {
+        margin: 8px 0;
+    }
+    
+    .title img {
+        display: none;
+    }
+    
+
+    
+    .cadastro h1 {
+        font-size: 18px;
+    }
+    
+    #btnFecharCadastro {
+        font-size: 18px;
+    }
+
+
+
+
+
+    
+}
+
+@media(max-width: 600px){
+
+    .comanda-aberta {
+        width: 100%;
+        margin: 0;
+        border: 0;
+        border-bottom: 1px solid lightgray;
+        border-radius: 0;
+    }
+
+    .comanda-especifica-search {
+        width: 95%;
+    }
+
+}
+
+
+@media(max-width: 510px){
+    .consultaCampos {
+        width: 95%;
+        margin: 15px 2.5%;
+    }
+}
+
+
+@media(max-width: 450px){
+    .search-das-comandas {
+        width: 95%;
+    }
+}
+
+
+@media(max-width:420px){
+    
+    .container {
+        width: 95%;
+    }
+}
+
+
+@media(max-width: 375px){
+    .popupInside {
+        width: 96%;
+    }
+
+    .sucesso {
+        width: 95%;
+    }
+
+}
+
+
+@media(max-width:360px){
+    .forms {
+        width: 90%;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    
+    .login {
+        width: 90%;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    
+    .cadastre {
+        width: 90%;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    
+    .erroPermissao {
+        width: 90%;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    
+}
+
+
+@media(max-width:315px){
+    .title h1::after {
+        text-indent:0;
+        content:'';
+    }
+}
+
+@media(max-height: 500px){
+    .login {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: translate(0, 0);
+        margin: auto;
+        margin-top: 90px;
+        margin-bottom: 60px;
+    }
+
+    .cadastre {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: translate(0, 0);
+        margin: auto;
+        margin-top: 90px;
+        margin-bottom: 60px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
